@@ -1,5 +1,9 @@
 # 01 - Hello world
 
+## Video
+
+- Link:
+
 ## Perguntas
 
 1. A instrução `IMAGE` é opcional e tem o único propósito de ser uma referência.
