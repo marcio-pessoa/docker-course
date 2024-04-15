@@ -2,7 +2,7 @@
 
 ## Perguntas
 
-1. A instrução IMAGE é opcional e tem o único propósito de ser uma referência.
+1. A instrução `IMAGE` é opcional e tem o único propósito de ser uma referência.
 
     - [ ] Verdadeiro
     - [ ] Falso
@@ -14,10 +14,10 @@
 
 3. Qual instrução é usada para copiar arquivos entre o sistema de arquivos local e o sistema de arquivos do container?
 
-    - [ ] RSYNC
-    - [ ] CP
-    - [ ] COPY
-    - [ ] SYNC
+    - [ ] `RSYNC`
+    - [ ] `CP`
+    - [ ] `COPY`
+    - [ ] `SYNC`
 
 4. Quando uma imagem de container não é encontrada no sistema de arquivos local ela é coletada (pull) apenas do Docker Hub?
 
