@@ -1,8 +1,8 @@
 # 01 - Hello world
 
-## Video
+## Links
 
-- Link:
+- YouTube:
 
 ## Perguntas
 
