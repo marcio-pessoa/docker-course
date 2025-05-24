@@ -6,7 +6,7 @@
 
 ## Perguntas
 
-1. A instrução `IMAGE` é opcional e tem o único propósito de ser uma referência.
+1. A instrução `FROM` é opcional e tem o único propósito de ser uma referência.
 
     - [ ] Verdadeiro
     - [ ] Falso
@@ -28,7 +28,7 @@
     - [ ] Sim, pois ao usar Docker só é possível usar o Docker Hub
     - [ ] Não, pois não é recomendável fazer pull de imagens da Internet
     - [ ] Sim, pois o Docker Hub é o único Container Registry confiável
-    - [ ] Não, pois há inumeros Containers Registry
+    - [ ] Não, pois há inúmeros Containers Registry
 
 5. O comando `docker run` executa apenas imagens de container criadas localmente.
 
