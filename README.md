@@ -2,7 +2,7 @@
 
 ## Fundamentos
 
-### Introdução
+### 1 Introdução
 
 - O que é Docker?
 - Um pouco de história
@@ -15,26 +15,26 @@
 - Tags
 - Ecossistema (Docker Hub, Git Hub Container Registry, Artifact Registry, Container Registry privado)
 
-## Construindo Imagens
+## 2 Construindo Imagens
 
-- Hello world
-- Aprofundando o hello world
-- Estrutura do Dockerfile (FROM, RUN, COPY, ADD, WORKDIR, ENV, EXPOSE, CMD, RUN, ENTRYPOINT)
-- Variáveis de Ambiente
-- Melhores Práticas para Dockerfiles
+- Hello world (FROM, RUN, COPY, CMD)
+- Aprofundando o hello world (ADD, ENTRYPOINT)
+- Hello world web (WORKDIR, EXPOSE)
+- Variáveis de Ambiente (ENV)
+- Gerenciamento de Dependências (RUN)
+- Melhores Práticas
 - Minimizando o tamanho da imagem (multi-stage builds)
 - Cache do Docker: aproveitando o cache para acelerar a construção
 - Segurança: evitando informações sensíveis no Dockerfile
-- Gerenciamento de Dependências (pip, npm, apt)
 
-## Persistência de Dados
+## 3 Persistência de Dados
 
 - Volumes
 - Bind mounts
 - Named volumes
 - Anonymous volumes
 
-## Redes
+## 4 Redes
 
 - O que são redes Docker?
 - Rede padrão (bridge)
@@ -44,15 +44,7 @@
 - Mapeando portas do container para o host.
 - DNS e Service Discovery
 
-## Princípios de orquestração
-
-- Múltiplos Containers
-- Estrutura do docker-compose.yml
-- Variáveis de ambiente
-- Dependências entre serviços
-- Gerenciando Multi-Container Applications (up, down, build, logs)
-
-## Segurança
+## 5 Segurança
 
 - Verificando vulnerabilidades nas imagens
 - Escaneamento de imagens com ferramentas como Clair ou Trivy
@@ -63,7 +55,15 @@
 - Configurando firewalls e regras de acesso
 - Utilizando variáveis de ambiente seguras
 
-## Orquestração de Containers em escala
+## 6 Princípios de orquestração
+
+- Múltiplos Containers
+- Estrutura do docker-compose.yml
+- Variáveis de ambiente
+- Dependências entre serviços
+- Gerenciando Multi-Container Applications (up, down, build, logs)
+
+## 7 Orquestração de Containers em escala
 
 - Arquitetura do Docker Swarm (Managers, Workers, Swarm Mode)
 - Criando um cluster Docker Swarm
