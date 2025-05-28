@@ -9,7 +9,6 @@
 - Características (efemeridade, portabilidade, consistência, isolamento, gerenciamento)
 - Comparativo com outros métodos
 - Casos de uso (desenvolvimento, teste, produção, microsserviços)
-- Características (efemeridade)
 - Imagens
 - Layers (Camadas de imagem)
 - Comandos Essenciais (run, ps, stop, start, rm, images, pull, rmi, info)
