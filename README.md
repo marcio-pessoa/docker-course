@@ -1,10 +1,8 @@
 # Docker - Curso
 
-## Fundamentos
+## 1 Fundamentos
 
-### 1 Introdução
-
-1. Docker e um pouco de história
+1. Um pouco de história
 2. Características (efemeridade, portabilidade, consistência, isolamento, gerenciamento)
 3. Comparativo com outros métodos
 4. Casos de uso (desenvolvimento, teste, produção, microsserviços)
